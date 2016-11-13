@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AdhesionView">
+        <attr name="av_maxDragLen" format="dimension" />
+        <attr name="av_dotRadius" format="dimension" />
+        <attr name="av_dotColor" format="color|reference" />
+        <attr name="av_dotTextColor" format="color|reference" />
+        <attr name="av_dotText" format="string|reference" />
+        <attr name="av_dotTextSize" format="dimension" />
+    </declare-styleable>
+</resources>

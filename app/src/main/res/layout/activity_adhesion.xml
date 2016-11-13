@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:orientation="vertical">
+
+    <com.github.hymanme.adheisionview.AdhesionView
+        android:id="@+id/adhesionView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        app:av_dotText="9"
+        app:av_dotTextSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+10" />
+
+        <Button
+            android:id="@+id/btn_minus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-10" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="最大拖拽距离" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="300"
+            android:progress="20" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="圆点半径" />
+
+        <SeekBar
+            android:id="@+id/seekBar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="15"
+            android:progress="8" />
+
+
+    </LinearLayout>
+
+</FrameLayout>
